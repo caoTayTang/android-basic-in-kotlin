@@ -10,19 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f906de49-1cde-4a13-b54f-fd8d1228c6a1" name="Changes" comment="Make a hello world in android studio">
-      <change afterPath="$PROJECT_DIR$/../Pathway 1/HappyBirthDay.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pathway 1/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/birthdaycake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../birthdaycake.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathway 2+3+4/HappyBirthDay.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathway 2+3+4/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[O7SOMJSKCYLNFMBU]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\lechi\.android\avd\Pixel_5_API_31.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -61,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/android-basics-kotlin-birthday-card-app-solution-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pathway 4/lemon_app" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
