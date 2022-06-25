@@ -11,15 +11,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:orientation="vertical">
-
+        android:layout_height="wrap_content"
+        >
             <ImageView
                 android:id="@+id/dog_image"
                 android:layout_width="match_parent"
@@ -28,12 +21,10 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:scaleType="centerCrop"
-                tools:srcCompat="@drawable/tzeitel" />
+                tools:srcCompat="@drawable/tzeitel"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
 
-            <!-- Create a TextView for each of the following:
-                    The dog's name
-                    The dog's age
-                    The dog's hobbies-->
             <TextView
                 android:id="@+id/dog_name"
                 android:layout_width="wrap_content"
@@ -41,11 +32,13 @@
                 android:paddingStart="5dp"
                 android:paddingEnd="5dp"
                 android:textAppearance="?textAppearanceHeadline6"
-                tools:text="Tzeitel" />
+                tools:text="Tzeitel"
+                app:layout_constraintTop_toBottomOf="@+id/dog_image"
+                app:layout_constraintStart_toStartOf="parent"/>
 
             <TextView
                 android:id="@+id/dog_age"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingStart="5dp"
                 android:paddingTop="5dp"
@@ -53,20 +46,24 @@
                 android:paddingBottom="5dp"
                 android:textAppearance="?attr/textAppearanceBody2"
                 android:textSize="12sp"
-                tools:text="Age: 7" />
+                tools:text="Age: 7"
+                app:layout_constraintTop_toBottomOf="@+id/dog_name"
+                app:layout_constraintStart_toStartOf="parent"/>
 
-            <TextView
-                android:id="@+id/dog_hobbies"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="5dp"
-                android:paddingTop="5dp"
-                android:paddingEnd="5dp"
-                android:paddingBottom="5dp"
-                android:textAppearance="?attr/textAppearanceBody2"
-                android:textSize="12sp"
-                tools:text="Mo ta neeeeeeeeeeeeeeeeeeeee" />
-        </LinearLayout>
+        <TextView
+            android:id="@+id/dog_hobbies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dog_name"
+            tools:text="This is description" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </com.google.android.material.card.MaterialCardView>

@@ -35,14 +35,8 @@ class MainActivity : AppCompatActivity() {
         // Setup view binding
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        // Launch the VerticalListActivity on verticalBtn click
         binding.verticalBtn.setOnClickListener { launchVertical() }
-
-        // Launch the HorizontalListActivity on horizontalBtn click
         binding.horizontalBtn.setOnClickListener { launchHorizontal() }
-
-        // Launch the GridListActivity on gridBtn click
         binding.gridBtn.setOnClickListener { launchGrid() }
     }
 
